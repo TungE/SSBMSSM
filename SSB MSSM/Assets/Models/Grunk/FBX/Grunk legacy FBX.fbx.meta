@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 4d4e7cd8d87d98a46870cedb702d5e22
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: chest
+    100002: f_index_01_L
+    100004: f_index_01_R
+    100006: f_index_02_L
+    100008: f_index_02_R
+    100010: f_middle_01_L
+    100012: f_middle_01_R
+    100014: f_middle_02_L
+    100016: f_middle_02_R
+    100018: f_ring_01_L
+    100020: f_ring_01_R
+    100022: f_ring_02_L
+    100024: f_ring_02_R
+    100026: foot_L
+    100028: foot_R
+    100030: forearm_L
+    100032: forearm_R
+    100034: //RootNode
+    100036: hand_L
+    100038: hand_R
+    100040: head
+    100042: heel_02_L
+    100044: heel_02_R
+    100046: heel_L
+    100048: heel_R
+    100050: hips
+    100052: metarig
+    100054: neck
+    100056: palm_01_L
+    100058: palm_01_R
+    100060: palm_02_L
+    100062: palm_02_R
+    100064: palm_03_L
+    100066: palm_03_R
+    100068: Plane_001
+    100070: Plane_002
+    100072: shin_L
+    100074: shin_R
+    100076: shoulder_L
+    100078: shoulder_R
+    100080: spine
+    100082: thigh_L
+    100084: thigh_R
+    100086: thumb_01_L
+    100088: thumb_01_R
+    100090: thumb_02_L
+    100092: thumb_02_R
+    100094: thumb_03_L
+    100096: thumb_03_R
+    100098: toe_L
+    100100: toe_R
+    100102: upper_arm_L
+    100104: upper_arm_R
+    400000: chest
+    400002: f_index_01_L
+    400004: f_index_01_R
+    400006: f_index_02_L
+    400008: f_index_02_R
+    400010: f_middle_01_L
+    400012: f_middle_01_R
+    400014: f_middle_02_L
+    400016: f_middle_02_R
+    400018: f_ring_01_L
+    400020: f_ring_01_R
+    400022: f_ring_02_L
+    400024: f_ring_02_R
+    400026: foot_L
+    400028: foot_R
+    400030: forearm_L
+    400032: forearm_R
+    400034: //RootNode
+    400036: hand_L
+    400038: hand_R
+    400040: head
+    400042: heel_02_L
+    400044: heel_02_R
+    400046: heel_L
+    400048: heel_R
+    400050: hips
+    400052: metarig
+    400054: neck
+    400056: palm_01_L
+    400058: palm_01_R
+    400060: palm_02_L
+    400062: palm_02_R
+    400064: palm_03_L
+    400066: palm_03_R
+    400068: Plane_001
+    400070: Plane_002
+    400072: shin_L
+    400074: shin_R
+    400076: shoulder_L
+    400078: shoulder_R
+    400080: spine
+    400082: thigh_L
+    400084: thigh_R
+    400086: thumb_01_L
+    400088: thumb_01_R
+    400090: thumb_02_L
+    400092: thumb_02_R
+    400094: thumb_03_L
+    400096: thumb_03_R
+    400098: toe_L
+    400100: toe_R
+    400102: upper_arm_L
+    400104: upper_arm_R
+    4300000: Plane_001
+    4300002: Plane_002
+    7400000: Default Take
+    7400002: metarigAction
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Plane_001
+    13700002: Plane_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

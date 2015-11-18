@@ -14,7 +14,10 @@ public class PauseMenuButtonControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		/*
+		if (Time.timeScale == 0.0f) {
+			pauseMenuCanvas.SetActive(true);
+		}*/
 	}
 
 	public void resumeGame() {
@@ -23,5 +26,10 @@ public class PauseMenuButtonControl : MonoBehaviour {
 	}
 	public void exitGame() {
 		Application.LoadLevel("main_menu");
+		
+		// reset the user's map and character choices
+		PlayerPrefs.DeleteKey ("map");
+		PlayerPrefs.DeleteKey ("P1");
+		PlayerPrefs.DeleteKey ("P2");
 	}
 }

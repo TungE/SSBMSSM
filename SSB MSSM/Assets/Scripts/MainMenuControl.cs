@@ -2,12 +2,6 @@
 using UnityEngine.UI;
 using System.Collections;
 
-/*
-static class GameData {
-	static int map;
-	// List<int> chars;
-}*/
-
 public class MainMenuControl : MonoBehaviour {
 	
 	GameObject start_menu;

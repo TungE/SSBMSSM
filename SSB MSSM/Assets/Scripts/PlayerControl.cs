@@ -22,7 +22,7 @@ public class Player
 	{
 		numberID = numID;
 		percentage = 0;
-		speed = 25;
+		speed = 30;
 		stocksLeft = 4; 
 		maxJumps = 2;
 		jumpsLeft = 2;
@@ -133,6 +133,10 @@ public class PlayerControl : MonoBehaviour
 	public Text pla4Tex;
 	*/
 
+	// TODO // temporary fix
+	public Mesh tmpMesh;
+	//
+
 	static public IList<Player> players; 
 
 	// Use this for initialization
@@ -143,17 +147,26 @@ public class PlayerControl : MonoBehaviour
 		p2moveSet = new Dictionary<string, KeyCode> (){{"jump", KeyCode.T},{"left", KeyCode.F},{"right", KeyCode.H},{"pause", KeyCode.P}};
 		p3moveSet = new Dictionary<string, KeyCode> (){{"jump", KeyCode.I},{"left", KeyCode.J},{"right", KeyCode.L},{"pause", KeyCode.P}};
 
+		// TODO // this works!
+		GameObject p1go = Instantiate(Resources.Load("Models/Grunk/FBX/GLFBX", typeof(GameObject))) as GameObject;
+		// p1go.AddComponent<Rigidbody>() = new Rigidbody<>(); // TODO // fix
+		/*
 		p1go = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
 		p1go.AddComponent<Rigidbody> ();
-		p1go.transform.position = new Vector3 (-8,6,0);
+		// TODO // test for assiging a mesh to a gameObject // why won't this work :(
+		// Mesh tmpMesh = Resources.Load("Models/Grunk/FBX/GLFBX") as Mesh; 
+		p1go.GetComponent<MeshFilter> ().mesh = tmpMesh;
+		//
+		*/
+		p1go.transform.position = new Vector3 (-5,5,0);
 
 		p2go = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
 		p2go.AddComponent<Rigidbody> ();
-		p2go.transform.position = new Vector3 (0,6,0);
+		p2go.transform.position = new Vector3 (0,5,0);
 
 		p3go = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
 		p3go.AddComponent<Rigidbody> ();
-		p3go.transform.position = new Vector3 (8,6,0);
+		p3go.transform.position = new Vector3 (5,5,0);
 
 		player1 = new Player (1, p1go.GetComponent<Rigidbody>(), pla1Tex, p1moveSet);
 		player1.updateText ();
